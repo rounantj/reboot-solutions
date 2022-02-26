@@ -1,0 +1,42 @@
+:root{
+ --primary: #0a2639;
+ --secondary: #143d59;
+ --warning: #ffb500;
+ --font-primary:  'Montserrat', sans-serif; 
+ --border-radius: 10px;
+ --padding: 10px;
+ --gap: 10px;
+}
+
+.warning{
+    background-color: var(--warning);
+    color: var(--primary);
+}
+.info{
+    background-color: var(--primary);
+    color: var(--warning);
+}
+.light{
+    background-color: var(--secondary);
+    color: var(--warning);
+}
+
+
+/*
+Logo index loader show
+this is the initial stage of all
+no pain no glory
+the first frame is very durable
+*/
+.logoShowLoader{
+    position: absolute;
+    left: 10vw;
+    max-width: 80vw;
+    margin: 20vh auto;
+}
+.lineLogo{
+    display: inline-flex;
+}
+.mainLogo{
+    margin: auto;
+}
